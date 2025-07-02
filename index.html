@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechFlow - Modern Digital Solutions</title>
+    <meta
+      name="description"
+      content="Platform digital terdepan yang menghadirkan solusi teknologi inovatif untuk transformasi bisnis modern"
+    />
+    <meta
+      name="keywords"
+      content="digital agency, web development, mobile app, AI solutions, tech consulting"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Modern Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h1 class="logo-text">TechFlow</h1>
+          </div>
+          <div class="header-badge">🚀 Modern Digital Solutions</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modern Navigation -->
+    <nav class="navigation">
+      <div class="container">
+        <div class="nav-container">
+          <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-link active">
+              <i class="fas fa-home"></i>
+              <span>Beranda</span>
+            </a>
+            <a href="tentang.html" class="nav-link">
+              <i class="fas fa-info-circle"></i>
+              <span>Tentang Kami</span>
+            </a>
+            <a href="kontak.html" class="nav-link">
+              <i class="fas fa-comments"></i>
+              <span>Kontak</span>
+            </a>
+          </div>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">✨ Solusi Digital Terdepan</div>
+          <h1 class="hero-title">
+            Transformasi Digital
+            <br />
+            <span class="hero-highlight">Masa Depan</span>
+          </h1>
+          <p class="hero-description">
+            Kami menghadirkan solusi teknologi inovatif yang mengubah cara
+            bisnis Anda beroperasi di era digital
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">
+              Mulai Sekarang
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <button class="btn btn-secondary">Pelajari Lebih Lanjut</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <div class="container">
+        <div class="content-grid">
+          <!-- Content Area -->
+          <div class="content-area">
+            <div class="content-card">
+              <!-- Features Section -->
+              <div class="section">
+                <h2 class="section-title">Mengapa Memilih Kami?</h2>
+                <div class="features-grid">
+                  <div class="feature-card feature-blue">
+                    <div class="feature-icon">
+                      <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="feature-title">Inovasi Terdepan</h3>
+                    <p class="feature-description">
+                      Teknologi terbaru dan solusi inovatif untuk kebutuhan
+                      bisnis modern
+                    </p>
+                  </div>
+
+                  <div class="feature-card feature-purple">
+                    <div class="feature-icon">
+                      <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Keamanan Terjamin</h3>
+                    <p class="feature-description">
+                      Sistem keamanan berlapis untuk melindungi data dan privasi
+                      Anda
+                    </p>
+                  </div>
+
+                  <div class="feature-card feature-green">
+                    <div class="feature-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="feature-title">Layanan Premium</h3>
+                    <p class="feature-description">
+                      Dukungan 24/7 dan layanan pelanggan yang responsif
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Preview -->
+              <div class="section">
+                <h3 class="section-subtitle">Portfolio Terbaru</h3>
+                <div class="portfolio-grid">
+                  <div class="portfolio-item">
+                    <img
+                      src="https://picsum.photos/400/250?random=1"
+                      alt="E-Commerce Platform"
+                      class="portfolio-image"
+                    />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-content">
+                        <h4 class="portfolio-title">E-Commerce Platform</h4>
+                        <p class="portfolio-subtitle">
+                          Modern online shopping solution
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="portfolio-item">
+                    <img
+                      src="https://picsum.photos/400/250?random=2"
+                      alt="Mobile App Design"
+                      class="portfolio-image"
+                    />
+                    <div class="portfolio-overlay">
+                      <div class="portfolio-content">
+                        <h4 class="portfolio-title">Mobile App Design</h4>
+                        <p class="portfolio-subtitle">
+                          User-friendly mobile experience
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Video Section -->
+              <div class="section">
+                <h3 class="section-subtitle">Demo Produk</h3>
+                <div class="video-section">
+                  <div class="video-content">
+                    <div class="video-play-button" onclick="playDemo()">
+                      <i class="fas fa-play"></i>
+                    </div>
+                    <h4 class="video-title">Tonton Demo Interaktif</h4>
+                    <p class="video-description">
+                      Lihat bagaimana solusi kami dapat mengubah bisnis Anda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modern Widget Sidebar -->
+          <div class="sidebar">
+            <div class="sidebar-sticky">
+              <!-- About Widget -->
+              <div class="widget-card">
+                <div class="widget-header">
+                  <i class="fas fa-user widget-icon"></i>
+                  <h3 class="widget-title">Tentang TechFlow</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Platform digital terdepan yang menghadirkan solusi teknologi
+                    inovatif untuk transformasi bisnis modern.
+                  </p>
+                  <div class="client-avatars">
+                    <div class="avatar avatar-blue"></div>
+                    <div class="avatar avatar-purple"></div>
+                    <div class="avatar avatar-green"></div>
+                    <span class="client-count">1000+ Happy Clients</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Consultation Widget -->
+              <div class="widget-card widget-blue">
+                <div class="widget-header">
+                  <i class="fas fa-phone widget-icon"></i>
+                  <h3 class="widget-title">Konsultasi Gratis</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Dapatkan konsultasi gratis untuk kebutuhan digital Anda
+                  </p>
+                  <button class="btn btn-success btn-full">
+                    Hubungi Sekarang
+                  </button>
+                </div>
+              </div>
+
+              <!-- Newsletter Widget -->
+              <div class="widget-card widget-purple">
+                <div class="widget-header">
+                  <i class="fas fa-envelope widget-icon"></i>
+                  <h3 class="widget-title">Newsletter</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Dapatkan tips dan update terbaru seputar teknologi
+                  </p>
+                  <button class="btn btn-outline btn-full">Berlangganan</button>
+                </div>
+              </div>
+
+              <!-- Interactive Demo Widget -->
+              <div class="widget-card">
+                <div class="widget-header">
+                  <i class="fas fa-volume-up widget-icon"></i>
+                  <h3 class="widget-title">Demo Interaktif</h3>
+                </div>
+                <div class="widget-content">
+                  <div class="demo-container">
+                    <div class="demo-icon" id="demoIcon">
+                      <i class="fas fa-play"></i>
+                    </div>
+                    <h4 class="demo-title" id="demoTitle">
+                      Klik untuk Memulai Demo
+                    </h4>
+                    <p class="demo-description">
+                      Demonstrasi penggunaan JavaScript untuk interaktivitas
+                    </p>
+                    <button
+                      class="btn btn-primary btn-full"
+                      id="demoButton"
+                      onclick="toggleDemo()"
+                    >
+                      <i class="fas fa-play"></i> Start Demo
+                    </button>
+                    <div
+                      class="demo-animation"
+                      id="demoAnimation"
+                      style="display: none"
+                    >
+                      <div class="loading-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                      </div>
+                      <p class="demo-status">JavaScript sedang berjalan! ⚡</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modern Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h4 class="footer-widget-title">Tentang Perusahaan</h4>
+            <p class="footer-widget-text">
+              Informasi lengkap tentang visi, misi, dan layanan kami
+            </p>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h4 class="footer-widget-title">Dukungan 24/7</h4>
+            <p class="footer-widget-text">
+              Tim support yang siap membantu kapan saja Anda membutuhkan
+            </p>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h4 class="footer-widget-title">Komunitas</h4>
+            <p class="footer-widget-text">
+              Bergabung dengan komunitas developer dan tech enthusiast
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <span class="footer-logo-text">TechFlow</span>
+          </div>
+          <p class="footer-copyright">
+            © 2024 TechFlow. All rights reserved. Made with ❤️ for the future.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

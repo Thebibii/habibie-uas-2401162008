@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - TechFlow</title>
+    <meta
+      name="description"
+      content="Hubungi TechFlow untuk konsultasi dan layanan digital terbaik"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Modern Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <div class="logo-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h1 class="logo-text">TechFlow</h1>
+          </div>
+          <div class="header-badge">🚀 Modern Digital Solutions</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modern Navigation -->
+    <nav class="navigation">
+      <div class="container">
+        <div class="nav-container">
+          <div class="nav-links" id="navLinks">
+            <a href="index.html" class="nav-link">
+              <i class="fas fa-home"></i>
+              <span>Beranda</span>
+            </a>
+            <a href="tentang.html" class="nav-link">
+              <i class="fas fa-info-circle"></i>
+              <span>Tentang Kami</span>
+            </a>
+            <a href="kontak.html" class="nav-link active">
+              <i class="fas fa-comments"></i>
+              <span>Kontak</span>
+            </a>
+          </div>
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge hero-badge-green">📞 Hubungi Kami</div>
+          <h1 class="hero-title">
+            Mari Berkolaborasi
+            <br />
+            <span class="hero-highlight hero-highlight-green">Bersama</span>
+          </h1>
+          <p class="hero-description">
+            Kami siap membantu mewujudkan visi digital Anda. Tim expert kami
+            tersedia 24/7 untuk konsultasi
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <div class="container">
+        <div class="content-grid">
+          <!-- Content Area -->
+          <div class="content-area">
+            <div class="content-card">
+              <!-- Contact Methods -->
+              <div class="section">
+                <div class="contact-methods">
+                  <div class="contact-method contact-method-blue">
+                    <div class="contact-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 class="contact-title">Telepon</h3>
+                    <p class="contact-subtitle">Hubungi langsung tim kami</p>
+                    <p class="contact-value">+62 21 1234 5678</p>
+                  </div>
+
+                  <div class="contact-method contact-method-green">
+                    <div class="contact-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="contact-title">Email</h3>
+                    <p class="contact-subtitle">Kirim pesan detail</p>
+                    <p class="contact-value">hello@techflow.com</p>
+                  </div>
+
+                  <div class="contact-method contact-method-purple">
+                    <div class="contact-icon">
+                      <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3 class="contact-title">Live Chat</h3>
+                    <p class="contact-subtitle">Support real-time</p>
+                    <p class="contact-value">24/7 Available</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-content-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                  <h2 class="section-subtitle">
+                    <i class="fas fa-paper-plane"></i>
+                    Kirim Pesan
+                  </h2>
+                  <div class="contact-form-card">
+                    <form class="contact-form" id="contactForm">
+                      <div class="form-row">
+                        <div class="form-group">
+                          <label for="firstName" class="form-label"
+                            >Nama Depan</label
+                          >
+                          <input
+                            type="text"
+                            id="firstName"
+                            name="firstName"
+                            class="form-input"
+                            placeholder="John"
+                            required
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="lastName" class="form-label"
+                            >Nama Belakang</label
+                          >
+                          <input
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            class="form-input"
+                            placeholder="Doe"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          class="form-input"
+                          placeholder="john@example.com"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="company" class="form-label"
+                          >Perusahaan</label
+                        >
+                        <input
+                          type="text"
+                          id="company"
+                          name="company"
+                          class="form-input"
+                          placeholder="Nama perusahaan Anda"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="subject" class="form-label">Subjek</label>
+                        <input
+                          type="text"
+                          id="subject"
+                          name="subject"
+                          class="form-input"
+                          placeholder="Apa yang bisa kami bantu?"
+                          required
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label for="message" class="form-label">Pesan</label>
+                        <textarea
+                          id="message"
+                          name="message"
+                          class="form-textarea"
+                          rows="5"
+                          placeholder="Ceritakan lebih detail tentang kebutuhan Anda..."
+                          required
+                        ></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i>
+                        Kirim Pesan
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                  <h2 class="section-subtitle">
+                    <i class="fas fa-info-circle"></i>
+                    Informasi Kontak
+                  </h2>
+                  <div class="contact-info-cards">
+                    <div class="contact-info-card contact-info-blue">
+                      <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div class="contact-info-content">
+                        <h4 class="contact-info-title">Alamat Kantor</h4>
+                        <p class="contact-info-text">
+                          Menara TechFlow, Lantai 25<br />
+                          Jl. Sudirman No. 123<br />
+                          Jakarta Selatan, 12190<br />
+                          Indonesia
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="contact-info-card contact-info-green">
+                      <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                      </div>
+                      <div class="contact-info-content">
+                        <h4 class="contact-info-title">Telepon & WhatsApp</h4>
+                        <p class="contact-info-text">
+                          Office: +62 21 1234 5678<br />
+                          Mobile: +62 812 3456 7890<br />
+                          WhatsApp: +62 812 3456 7890
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="contact-info-card contact-info-purple">
+                      <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="contact-info-content">
+                        <h4 class="contact-info-title">Email</h4>
+                        <p class="contact-info-text">
+                          General: hello@techflow.com<br />
+                          Support: support@techflow.com<br />
+                          Business: business@techflow.com
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="contact-info-card contact-info-orange">
+                      <div class="contact-info-icon">
+                        <i class="fas fa-clock"></i>
+                      </div>
+                      <div class="contact-info-content">
+                        <h4 class="contact-info-title">Jam Operasional</h4>
+                        <p class="contact-info-text">
+                          Senin - Jumat: 09:00 - 18:00 WIB<br />
+                          Sabtu: 09:00 - 15:00 WIB<br />
+                          Minggu: Emergency Support Only
+                        </p>
+                        <div class="support-badge">24/7 Online Support</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Map Section -->
+              <div class="section">
+                <h3 class="section-subtitle">
+                  <i class="fas fa-globe"></i>
+                  Lokasi Kami
+                </h3>
+                <div class="map-section">
+                  <div class="map-content">
+                    <i class="fas fa-map-marker-alt map-icon"></i>
+                    <h4 class="map-title">Kunjungi Kantor Kami</h4>
+                    <p class="map-description">
+                      Berlokasi strategis di jantung kota Jakarta
+                    </p>
+                    <button class="btn btn-secondary">
+                      Lihat di Google Maps
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar (same as other pages) -->
+          <div class="sidebar">
+            <div class="sidebar-sticky">
+              <!-- About Widget -->
+              <div class="widget-card">
+                <div class="widget-header">
+                  <i class="fas fa-user widget-icon"></i>
+                  <h3 class="widget-title">Tentang TechFlow</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Platform digital terdepan yang menghadirkan solusi teknologi
+                    inovatif untuk transformasi bisnis modern.
+                  </p>
+                  <div class="client-avatars">
+                    <div class="avatar avatar-blue"></div>
+                    <div class="avatar avatar-purple"></div>
+                    <div class="avatar avatar-green"></div>
+                    <span class="client-count">1000+ Happy Clients</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Consultation Widget -->
+              <div class="widget-card widget-blue">
+                <div class="widget-header">
+                  <i class="fas fa-phone widget-icon"></i>
+                  <h3 class="widget-title">Konsultasi Gratis</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Dapatkan konsultasi gratis untuk kebutuhan digital Anda
+                  </p>
+                  <button class="btn btn-success btn-full">
+                    Hubungi Sekarang
+                  </button>
+                </div>
+              </div>
+
+              <!-- Newsletter Widget -->
+              <div class="widget-card widget-purple">
+                <div class="widget-header">
+                  <i class="fas fa-envelope widget-icon"></i>
+                  <h3 class="widget-title">Newsletter</h3>
+                </div>
+                <div class="widget-content">
+                  <p class="widget-text">
+                    Dapatkan tips dan update terbaru seputar teknologi
+                  </p>
+                  <button class="btn btn-outline btn-full">Berlangganan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modern Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h4 class="footer-widget-title">Tentang Perusahaan</h4>
+            <p class="footer-widget-text">
+              Informasi lengkap tentang visi, misi, dan layanan kami
+            </p>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h4 class="footer-widget-title">Dukungan 24/7</h4>
+            <p class="footer-widget-text">
+              Tim support yang siap membantu kapan saja Anda membutuhkan
+            </p>
+          </div>
+
+          <div class="footer-widget">
+            <div class="footer-widget-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h4 class="footer-widget-title">Komunitas</h4>
+            <p class="footer-widget-text">
+              Bergabung dengan komunitas developer dan tech enthusiast
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <span class="footer-logo-text">TechFlow</span>
+          </div>
+          <p class="footer-copyright">
+            © 2024 TechFlow. All rights reserved. Made with ❤️ for the future.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
